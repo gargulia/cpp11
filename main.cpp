@@ -29,7 +29,7 @@ int main()
         return EXIT_FAILURE;
     }
 
-    SDL_Surface* bmp = SDL_LoadBMP("../img/grumpy-cat.bmp");
+    SDL_Surface* bmp = SDL_LoadBMP("/usr/share/sdl2-c++11/grumpy-cat.bmp");
     if (bmp == nullptr) {
         cerr << "SDL_LoadBMP Error: " << SDL_GetError() << endl;
 		if (ren != nullptr) {
