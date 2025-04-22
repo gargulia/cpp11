@@ -1,6 +1,6 @@
 Name: sdl2-c++11
 Version: 1
-Release: alt1
+Release: alt2
 Summary: Example SDL2 to c++11
 Group: Graphics
 
@@ -48,5 +48,8 @@ install -Dm 644 grumpy-cat.bmp -t %buildroot%_datadir/%name
 # запись изменений, произошедших с пакетом между различными
 # Version или Release сборками
 %changelog
+* Tue Apr 22 2025 Artem Stefanski <gargulia@altlinux.org> 1-alt2
+- Changed path to grumpy-cat image.
+
 * Tue Apr 22 2025 Artem Stefanski <gargulia@altlinux.org> 1-alt1
 - Initial build.
